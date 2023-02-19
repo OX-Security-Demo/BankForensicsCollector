@@ -2,6 +2,9 @@ FROM alpine:latest as runtime
 WORKDIR /data
 COPY . /data
 
+# Another day, another key in the code
+ENV GITHUB_TOKEN=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
+
 # Access key best practices
 
 #     Never store your access key in plain text, in a code repository, or in code.
