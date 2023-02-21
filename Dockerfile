@@ -3,7 +3,7 @@ WORKDIR /data
 COPY . /data
 
 # Another day, another key in the code
-ENV GITHUB_TOKEN=ghp_MpdViiRSsNpu2SvSgQiBQLAdTfFQJn1kzMAA
+ENV GITHUB_TOKEN=ghp_MpdViiRSsNpu2SvSgQiBQLAdTfFQJn1kzMAB
 
 # Access key best practices
 
